@@ -25,11 +25,26 @@ a {
 }
 
 button {
+  border: 0;
   cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input:focus,
+button {
+  outline: none;
 }
